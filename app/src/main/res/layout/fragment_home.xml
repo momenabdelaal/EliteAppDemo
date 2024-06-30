@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/base_color"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:gravity="start"
+            android:padding="5dp"
+            android:text="HOME"
+            android:textColor="@color/textColor2"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+           />
+
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/progressbar"
+            style="@style/SpinKitView.Large.FoldingCube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:SpinKit_Color="@color/textColor2" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCategory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="5dp"
+            tools:itemCount="10"
+
+            tools:listitem="@layout/item_home_row" />
+
+
+        <!--        <include android:id="@+id/error"-->
+        <!--            layout="@layout/error"/>-->
+    </LinearLayout>
+</layout>
+

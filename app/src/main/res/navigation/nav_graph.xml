@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mobily.elite.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"/>
+
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.mobily.elite.ui.home.CategoryFragment"
+        android:label="fragment category"
+        tools:layout="@layout/fragment_category"/>
+<!--    <fragment-->
+<!--        android:id="@+id/reportsFragment"-->
+<!--        android:name="com.uram.amartick.ui.reports.HomeReport.ReportsFragment"-->
+<!--        android:label="fragment_reports"-->
+<!--        tools:layout="@layout/fragment_reports" />-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_project_report"-->
+<!--        android:name="com.uram.amartick.ui.reports.reportProject.ProjectReportFragment"-->
+<!--        android:label="fragmentProjectReport"-->
+<!--        tools:layout="@layout/fragment_project_report" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_fragment_project_report_to_projectDetailsFragment2"-->
+<!--            app:destination="@id/projectDetailsFragment2" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/projectDetailsFragment"-->
+<!--        android:name="com.uram.amartick.ui.home.subCategory.SubCategoryFragment"-->
+<!--        android:label="Category"-->
+<!--        tools:layout="@layout/fragment_subcategory" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/productFragment"-->
+<!--        android:name="com.uram.amartick.ui.home.product.ProductFragment"-->
+<!--        android:label="product"-->
+<!--        tools:layout="@layout/fragment_product" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/inboxFragment"-->
+<!--        android:name="com.uram.amartick.ui.inbox.InboxFragment"-->
+<!--        android:label="fragment_inbox"-->
+<!--        tools:layout="@layout/fragment_inbox">-->
+<!--        <action-->
+<!--            android:id="@+id/action_inboxFragment_to_detailsInboxFragment"-->
+<!--            app:destination="@id/detailsInboxFragment" />-->
+
+<!--    </fragment>-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_admin"-->
+<!--        android:name="com.uram.amartick.ui.setting.homeadmin.AdminPanelFragment"-->
+<!--        android:label="fragment_admin_setting"-->
+<!--        tools:layout="@layout/fragment_admin_panel" />-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_NewOrders"-->
+<!--        android:name="com.uram.amartick.ui.newOrders.NewOrdersFragment"-->
+<!--        android:label="fragment_Orders"-->
+<!--        tools:layout="@layout/fragment_neworders">-->
+<!--&lt;!&ndash;        <action&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/action_fragment_NewOrders_to_detailsInboxFragment"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:destination="@id/detailsInboxFragment" />&ndash;&gt;-->
+<!--    </fragment>-->
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_profile"-->
+<!--        android:name="com.uram.amartick.ui.setting.homeadmin.ProfileCustomer.ProfileFragment"-->
+<!--        android:label="fragment_profile"-->
+<!--        tools:layout="@layout/fragment_profile" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/cartFragment"-->
+<!--        android:name="com.uram.amartick.ui.cart.CartFragment"-->
+<!--        android:label="fragment_Card"-->
+<!--        tools:layout="@layout/fragment_cart">-->
+<!--        <action-->
+<!--            android:id="@+id/action_cartFragment_to_loginFragment"-->
+<!--            app:destination="@id/loginFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_cartFragment_to_registerationFragment"-->
+<!--            app:destination="@id/registerationFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/truckFragment"-->
+<!--        android:name="com.uram.amartick.ui.newOrders.truck.TruckFragment"-->
+<!--        android:label="TruckFragment"-->
+<!--        tools:layout="@layout/truck_fragment" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_NewOrdersFullScreen"-->
+<!--        android:name="com.uram.amartick.ui.newOrders.fullscreenOrder.OrderFragmentFullScreen"-->
+<!--        android:label="OrderFullScreen"-->
+<!--        tools:layout="@layout/fragment_neworder_fullscreen" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/payFragment"-->
+<!--        android:name="com.uram.amartick.ui.newOrders.pay.PayFragment"-->
+<!--        android:label="PayFragment"-->
+<!--        tools:layout="@layout/pay_fragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/settingsFragment"-->
+<!--        android:name="com.uram.amartick.ui.setting.settings.SettingsFragment"-->
+<!--        android:label="settings_fragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_settingsFragment_to_addProjectFragment"-->
+<!--            app:destination="@id/addProjectFragment" />-->
+<!--       &lt;!&ndash; <action-->
+<!--            android:id="@+id/action_settingsFragment_to_editProjectFragment"-->
+<!--            app:destination="@id/editProjectFragment" />&ndash;&gt;-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/addProjectFragment"-->
+<!--        android:name="com.uram.amartick.ui.setting.settings.project.add.AddProjectFragment"-->
+<!--        android:label="add_project_fragment"-->
+<!--        tools:layout="@layout/add_project_fragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_addProjectFragment_to_myWalletFragment"-->
+<!--            app:destination="@id/myWalletFragment" />-->
+<!--    </fragment>-->
+<!--    &lt;!&ndash;<fragment-->
+<!--        android:id="@+id/editProjectFragment"-->
+<!--        android:name="com.uram.amartick.ui.setting.settings.project.EditProjectFragment"-->
+<!--        android:label="edit_project_fragment"-->
+<!--        tools:layout="@layout/edit_project_fragment" />&ndash;&gt;-->
+<!--    <fragment-->
+<!--        android:id="@+id/detailsInboxFragment"-->
+<!--        android:name="com.uram.amartick.ui.inbox.details.DetailsInboxFragment"-->
+<!--        android:label="details_inbox_fragment"-->
+<!--        tools:layout="@layout/details_inbox_fragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_detailsInboxFragment_to_oldReplyFragment"-->
+<!--            app:destination="@id/oldReplyFragment" />-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_detailsInboxFragment_to_fragment_NewOrders"-->
+<!--            app:destination="@id/fragment_NewOrders" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/loginFragment"-->
+<!--        android:name="com.uram.amartick.ui.login.login.LoginFragment"-->
+<!--        android:label="LoginFragment"-->
+<!--        tools:layout="@layout/fragment_login" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/registerationFragment"-->
+<!--        android:name="com.uram.amartick.ui.register.RegisterationFragment"-->
+<!--        android:label="RegisterationFragment"-->
+<!--        tools:layout="@layout/fragment_registeration" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/oldReplyFragment"-->
+<!--        android:name="com.uram.amartick.ui.inbox.details.oldReply.OldReplyFragment"-->
+<!--        android:label="old_reply_fragment"-->
+<!--        tools:layout="@layout/old_reply_fragment" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/walletFragment"-->
+<!--        android:name="com.uram.amartick.ui.newOrders.wallet.WalletFragment"-->
+<!--        android:label="WalletFragment">-->
+<!--        <action-->
+<!--            android:id="@+id/action_fragment_NewOrders_to_walletFragment"-->
+<!--            app:destination="@id/fragment_NewOrders" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/myWalletFragment"-->
+<!--        android:name="com.uram.amartick.ui.setting.settings.project.mywallet.MyWalletFragment"-->
+<!--        android:label="my_wallet_fragment"-->
+<!--        tools:layout="@layout/my_wallet_fragment" >-->
+<!--        <action-->
+<!--            android:id="@+id/action_myWalletFragment_to_myAmountFragment"-->
+<!--            app:destination="@id/myAmountFragment" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/myAmountFragment"-->
+<!--        android:name="com.uram.amartick.ui.setting.settings.project.mywallet.amount.model.AmountFragment"-->
+<!--        android:label="my_Amount_fragment"-->
+<!--        tools:layout="@layout/amount_fragment" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/productPaysReportFilterFragment"-->
+<!--        android:name="com.uram.amartick.ui.reports.paysReport.payDataReport.productPaysReportFilterFragment"-->
+<!--        android:label="product_filter_fragment"-->
+<!--        tools:layout="@layout/fragment_product_pays_reports_filter_view" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/productReportFragment"-->
+<!--        android:name="com.uram.amartick.ui.reports.productsReport.productReportFragment"-->
+<!--        android:label="product_report_fragment"-->
+<!--        tools:layout="@layout/fragment_product_report" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/paysReportFragment"-->
+<!--        android:name="com.uram.amartick.ui.reports.paysReport.paysReportFragment"-->
+<!--        android:label="pays_report_fragment"-->
+<!--        tools:layout="@layout/fragment_pays_report" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/projectDetailsFragment2"-->
+<!--        android:name="com.uram.amartick.ui.reports.reportProject.projectDetails.ProjectDetailsFragment"-->
+<!--        android:label="project_details_fragment"-->
+<!--        tools:layout="@layout/project_details_fragment" />-->
+
+<!--    &lt;!&ndash;  <activity-->
+<!--          android:id="@+id/activityB"-->
+<!--          android:name="com.uram.amartick.ui.inbox.details.DetailsInboxActivity">-->
+
+
+<!--      </activity>&ndash;&gt;-->
+
+</navigation>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Elite App Demo</string>
+    <string name="dialog_action_ok">test</string>
+</resources>

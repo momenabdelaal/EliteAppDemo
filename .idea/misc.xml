@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/drawable-v24/ic_close_white.xml" value="0.242" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1505" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/fragment_category.xml" value="0.3087719298245614" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/fragment_home.xml" value="0.2255892255892256" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/image_layout.xml" value="0.2351851851851852" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/item_home_row.xml" value="0.17295597484276728" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/layout_dialog.xml" value="0.3087719298245614" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/layout/tool_bar.xml" value="0.2844311377245509" />
+        <entry key="..\:/WORK PERSONAL/EliteAppDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2015" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/activity_base.xml" value="0.1587719298245614" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/app_bar_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/content_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/dialog.xml" value="0.1587719298245614" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/fragment_home.xml" value="0.2037037037037037" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/item_home_row.xml" value="0.1" />
+        <entry key="..\:/WORK/Job Android Uramit/TodoListApp/app/src/main/res/layout/tool_bar.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
